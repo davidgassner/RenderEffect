@@ -2,9 +2,8 @@ package com.example.rendereffect
 
 import android.graphics.LightingColorFilter
 import android.graphics.RenderEffect
-import android.graphics.Shader
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.rendereffect.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
