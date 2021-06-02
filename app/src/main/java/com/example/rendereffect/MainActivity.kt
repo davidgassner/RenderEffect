@@ -2,6 +2,7 @@ package com.example.rendereffect
 
 import android.graphics.LightingColorFilter
 import android.graphics.RenderEffect
+import android.graphics.Shader
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rendereffect.databinding.ActivityMainBinding
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        binding.imageView.setRenderEffect(
+//        binding.modifiedView.setRenderEffect(
 //            RenderEffect.createBlurEffect(
 //                30f,
 //                30f,
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 //            )
 //        )
 
-//        binding.imageView.setRenderEffect(
+//        binding.modifiedView.setRenderEffect(
 //            RenderEffect.createColorFilterEffect(
 //                LightingColorFilter(0xFF0000, 0x000000)
 //            )

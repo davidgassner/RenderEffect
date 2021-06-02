@@ -7,13 +7,25 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/originalView"
+        android:layout_width="@dimen/imageDimension"
+        android:layout_height="@dimen/imageDimension"
+        android:contentDescription="@string/original_image"
+        app:layout_constraintBottom_toTopOf="@id/modifiedView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alien_mindigo" />
+
+    <ImageView
+        android:id="@+id/modifiedView"
+        android:layout_width="@dimen/imageDimension"
+        android:layout_height="@dimen/imageDimension"
+        android:contentDescription="@string/modified_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/originalView"
         app:srcCompat="@drawable/alien_mindigo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RenderEffect</string>
+    <string name="original_image">Original image</string>
+    <string name="modified_image">Modified image</string>
 </resources>
